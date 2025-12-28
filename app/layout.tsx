@@ -1,8 +1,9 @@
+import Navbar from "./navbar/page";
 import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mike Thompson",
+  title: "Michael J. Thompson",
   description: "Home page",
 };
 
@@ -14,8 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>Mike Thompson</h1>
-        {children}
+        <Navbar />
+          {children}
       </body>
     </html>
   );
