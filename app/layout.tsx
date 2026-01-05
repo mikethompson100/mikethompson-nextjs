@@ -1,7 +1,8 @@
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import type { Metadata } from "next";
-import "./globals.css";
 import { ReactNode } from "react";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Michael J. Thompson",
@@ -14,10 +15,13 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" className="overscroll-none">
       <body>
         <Navbar />
-        {children}
+        <main>
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );
