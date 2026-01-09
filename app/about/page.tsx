@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <section className="bg-secondary color-primary p-5 md:py-9 border-b-4 border-b-[var(--color-tertiary)]">
+      <section className="bg-secondary color-primary p-7 md:pb-15 md:pt-9 border-b-4 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl">About</h2>
           <h3 className="text-xl md:text-2xl">This is sample copy for the about page. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy.</h3>

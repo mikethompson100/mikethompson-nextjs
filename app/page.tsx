@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <>
-      <section className="bg-secondary color-primary p-7 md:py-9 border-b-4 border-b-[var(--color-tertiary)]">
+      <section className="bg-secondary color-primary p-7 md:pb-15 md:pt-9 border-b-4 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <p className="text-4xl md:text-7xl py-13 leading-tight"><span className="font-bold">Web developer</span> specializing in delivering effective solutions and troubleshooting complex front-end issues.</p>
           <p className="pt-4 text-xl md:text-2xl">I have over 15 years of experience working with responsive HTML, CSS, Bootstrap with hands-on experience in web accessibility and screen readers such as NVDA and JAWS. I am WCAG-certified and recently earned an AWS Cloud Practitioner certification. I currently work at Capgemini, a global IT services and consulting firm.</p>
