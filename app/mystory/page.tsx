@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mike Thompson | About",
-  description: "About",
+  title: "Michael J. Thompson | My Story",
+  description: "My Story",
 };
 
-export default function About() {
+export default function MyStory() {
   return (
     <>
       <section className="bg-secondary color-primary p-7 md:pb-15 md:pt-9 border-b-4 border-b-[var(--color-tertiary)]">
