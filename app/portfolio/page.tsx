@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 export default function Portfolio() {
   return (
     <>
-      <section className="bg-secondary color-primary p-7 md:pb-15 md:pt-9 border-b-4 border-b-[var(--color-tertiary)]">
+      <section className="bg-secondary color-primary p-7 md:pb-15 md:pt-9 border-b-3 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <h2 className="pt-3 pb-10 text-2xl md:text-3xl">Portfolio</h2>
 
-          <div className="text-xl md:text-2xl flex flex-col p-4 border-1 border-b-[var(--color-tertiary)] rounded-xl">
+          <div className="text-xl md:text-2xl flex flex-col p-4 border-1 rounded-xl">
             <h3 className="font-bold">This Portfolio Website:</h3>
             <h4 className="py-2 text-base md:text-xl">mikethompson100.com</h4>
             <h5 className="pe-5 py-5 text-sm md:text-base">
@@ -27,7 +27,7 @@ export default function Portfolio() {
             </a>
           </div>
           
-          <div className="mt-10 text-xl md:text-2xl flex flex-col p-4 border-1 border-b-[var(--color-tertiary)] rounded-xl">
+          <div className="mt-10 text-xl md:text-2xl flex flex-col p-4 border-1 rounded-xl">
             <h3 className="font-bold">React app for baseball statistics:</h3>
             <h4 className="pb-5 text-base md:text-xl">sortsport.com</h4>
             <a href="https://www.sortsport.com" target="_blank" rel="noopener noreferrer" className="w-fit underline hover:text-[var(--color-tertiary)] border border-[#1A237E]">
@@ -41,7 +41,7 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-      <section className="bg-primary color-secondary p-5 md:py-9 md:text-2xl border-b-4 border-b-[var(--color-tertiary)]">
+      <section className="bg-primary color-secondary p-7 md:py-15 border-b-4 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <h2 className="pt-3 pb-10 text-2xl md:text-3xl">Section 2</h2>
           <h3 className="text-xl md:text-2xl">This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy. This is sample copy.</h3>

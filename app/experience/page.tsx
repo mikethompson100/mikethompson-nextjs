@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Experience() {
   return (
     <>
-      <section className="bg-secondary color-primary ps-7 pt-7 pe-7 pb-12 md:pb-15 md:pt-9 border-b-4 border-b-[var(--color-tertiary)]">
+      <section className="bg-secondary color-primary ps-7 pt-7 pe-7 pb-12 md:pb-15 md:pt-9 border-b-3 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl">Core Competencies</h2>
           <h3 className="text-xl md:text-2xl mb-12">These are the current skills and tools I use in my current role:</h3>
@@ -118,7 +118,7 @@ export default function Experience() {
             </div>
             <div className="bg-white flex flex-col min-w-[200px] md:min-w-[150px] xl:min-w-[175px] min-h-[180px] mx-auto items-center justify-center rounded-xl border-2 border-[rgba(255,193,7,1)] shadow">
               <img src="/images/tailwindcss-mark.d52e9897.svg" alt="Tailwind CSS logo" className="w-20 h-20" />
-              <h4 className="color-primary flex text-center text-lg lg:text-base w-[120px] md:w-[110px] font-bold mb-3 xl:mt-3">Tailwind CSS</h4>
+              <h4 className="flex flex-col color-primary flex text-center text-lg lg:text-base w-[120px] md:w-[110px] font-bold mb-3 xl:mt-3">Tailwind CSS<span className="text-sm">(TAOS)</span><span className="sr-only">(Tailwind CSS Animation on Scroll)</span></h4>
             </div>
             <div className="flex flex-col min-w-[200px] md:min-w-[150px] xl:min-w-[175px] min-h-[180px] mx-auto items-center justify-center bg-white rounded-xl border-2 border-[rgba(255,193,7,1)] shadow">
               <img src="images/framer-motion.jpeg" alt="Framer Motion logo" className="h-20" />

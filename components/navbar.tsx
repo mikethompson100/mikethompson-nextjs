@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-primary color-secondary px-4 py-4 md:text-3xl border-b-4 border-b-[var(--color-tertiary)] sticky top-0">
+    <nav className="bg-primary color-secondary px-4 py-4 md:text-3xl border-b-3 border-b-[var(--color-tertiary)] sticky top-0">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <h1 className="text-2xl md:text-2xl lg:text-3xl">Michael J. Thompson</h1>
 
