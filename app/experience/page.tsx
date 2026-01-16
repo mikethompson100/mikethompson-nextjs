@@ -75,7 +75,7 @@ export default function Experience() {
       </section>
       <section className="bg-primary color-secondary p-5 md:py-9 pb-12 md:pb-15 md:text-2xl border-b-4 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="pt-3 pb-5 text-2xl md:text-3xl color-tertiary">Emerging Skills</h2>
+          <h2 className="pt-3 pb-5 text-2xl md:text-3xl color-tertiary delay-[300ms] duration-[600ms] taos:translate-y-[100%] taos:opacity-0" data-taos-offset="300">Emerging Skills</h2>
           <h3 className="text-xl md:text-2xl col-span-6 mb-12">These are the skills and tools I am currently learning and expanding my knowledge in which I acquired from the <br className="hidden xl:block" />University of Texas at Austin's Full Stack Software Development Certification Course:</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-7xl mx-auto mt-5">
             <div className="bg-white flex flex-col min-w-[200px] md:min-w-[150px] xl:min-w-[175px] min-h-[180px] mx-auto items-center justify-center rounded-xl border-2 border-[rgba(255,193,7,1)] shadow">
