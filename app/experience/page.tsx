@@ -11,7 +11,7 @@ export default function Experience() {
       <section className="bg-secondary color-primary ps-7 pt-7 pe-7 pb-12 md:pb-15 md:pt-9 border-b-3 border-b-[var(--color-tertiary)]">
         <div className="max-w-7xl mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl">Core Competencies</h2>
-          <h3 className="text-xl md:text-2xl mb-12">These are the current skills and tools I use in my current role:</h3>
+          <h3 className="text-xl md:text-2xl mb-12">These are the current skills and tools that I have used in my current role:</h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
             <div className="flex flex-col min-w-[200px] md:min-w-[150px] xl:min-w-[175px] min-h-[180px] mx-auto items-center justify-around rounded-xl border border-[rgba(255,193,7,0.3)] shadow">
