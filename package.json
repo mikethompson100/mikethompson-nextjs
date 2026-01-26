@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "@versoly/react-taos": "^1.1.1",
     "motion": "^12.25.0",
     "next": "16.0.3",
     "postcss": "^8.5.6",
