@@ -6,6 +6,7 @@
   --color-tertiary: #FFC107;
 }
 
+/* Custom class for consolidation on portfolio page */
 @layer components {
   .tools {
     @apply 
@@ -25,6 +26,7 @@
   }
 }
 
+/* Taos Animations Configuration */
 @custom-variant taos (&.taos-init:where(:not(.taos-animate)));
 
 html.js :where([class*="taos:"]:not(.taos-init)) {

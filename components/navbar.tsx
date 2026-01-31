@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { HiMenu, HiX } from "react-icons/hi";
+import { VscArrowSmallRight } from "react-icons/vsc";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="z-2 bg-primary text-secondary px-4 py-4 md:text-3xl border-b-3 border-b-[var(--color-tertiary)] sticky top-0">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <nav className="z-2 bg-primary text-secondary p-4 md:text-3xl border-b-3 border-b-[var(--color-tertiary)] sticky top-0">
+      <div className="container mx-auto flex items-center justify-between">
         <h1 className="text-2xl md:text-2xl lg:text-3xl">Michael J. Thompson</h1>
 
         {/* Desktop Menu */}
@@ -39,10 +40,10 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="absolute top-16 left-0 w-full bg-primary flex flex-col items-center py-4 space-y-4 md:hidden text-xl border-b-4 border-b-[var(--color-tertiary)]">
+          <ul className="absolute top-16 left-0 w-full bg-primary flex flex-col items-start p-4 space-y-3 md:hidden text-xl border-b-4 border-b-[var(--color-tertiary)]">
             {links.map((link) => (
-              <li key={link.name} onClick={() => setIsOpen(false)}>
-                <Link href={link.href}>{link.name}</Link>
+              <li className="w-full" key={link.name} onClick={() => setIsOpen(false)}>
+                <Link href={link.href} className="w-full inline-block">{link.name}<VscArrowSmallRight className="inline text-tertiary" /></Link>
               </li>
             ))}
           </ul>

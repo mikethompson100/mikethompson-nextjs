@@ -44,7 +44,7 @@ export default function Experience() {
   return (
     <>
       <section className="bg-secondary text-primary ps-7 pt-7 pe-7 pb-12 md:pb-15 md:pt-9 border-b-3 border-b-[var(--color-tertiary)]">
-        <div className="max-w-7xl mx-auto">
+        <div className="container mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl">Core Competencies</h2>
           <h3 className="text-xl md:text-2xl mb-12">These are the current skills and tools that I have used in my current role:</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
@@ -130,10 +130,11 @@ export default function Experience() {
         </div>
       </section >
       <section className="bg-primary text-secondary p-5 md:py-9 pb-12 md:pb-15 md:text-2xl border-b-4 border-b-tertiary">
-        <div className="max-w-7xl mx-auto">
+        <div className="container mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl text-tertiary">Emerging Skills</h2>
           <h3 className="text-xl md:text-2xl col-span-6 mb-12">These are the skills and tools I am currently learning and expanding my knowledge in which I acquired from the <br className="hidden xl:block" />University of Texas at Austin's Full Stack Software Development Certification Course:</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-7xl mx-auto mt-5">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
 
 
             <TAOS className="delay-[100ms] duration-[1s] taos:translate-x-[-50%] taos:opacity-0 
@@ -223,7 +224,7 @@ export default function Experience() {
       </section>
       <section className="bg-secondary text-primary ps-7 pt-7 pe-7 pb-12 md:pb-15 md:pt-9 border-b-3 border-b-[var(--color-tertiary)]">
 
-        <div className="max-w-7xl mx-auto">
+        <div className="container mx-auto">
           <h2 className="pt-3 pb-5 text-2xl md:text-3xl">Certifications</h2>
           <h3 className="text-xl md:text-2xl mb-12">These are the recent certifications that I have received and courses I have taken to demonstrate my committment to continous learning:</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
